@@ -1,0 +1,39 @@
+{
+  "name": "jobsboard",
+  "version": "1.0.0",
+  "description": "A jobs board crud app",
+  "main": "server.js",
+  "engines": {
+    "node": "15.7.0"
+  },
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "node server.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zoranmihov/JobsBoard.git"
+  },
+  "author": "Zoran Mihov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zoranmihov/JobsBoard/issues"
+  },
+  "homepage": "https://github.com/Zoranmihov/JobsBoard#readme",
+  "dependencies": {
+    "bcrypt": "5.0.1",
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "jsonwebtoken": "8.5.1",
+    "mongoose": "6.0.14",
+    "nodejs-nodemailer-outlook": "1.2.4",
+    "nodemailer": "6.7.2",
+    "nodemon": "2.0.15",
+    "react-paypal-button-v2": "2.6.3",
+    "stripe": "8.193.0"
+  }
+}
