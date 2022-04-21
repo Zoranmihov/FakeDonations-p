@@ -1,6 +1,6 @@
 # About:
 
-The idea behind FakeDonations is to build a MERN stack subscription based website that rewards its users based on if they are currently an active donor, and by the total amount of money donated. The purpose of building this was to teach myself about proper authentication and security combined with implementing two of the internet's most famous online payments systems.
+The idea behind FakeSubscriptions is to build a MERN stack subscription based website that rewards its users based on if they are currently an active donor, and by the total amount of money donated. The purpose of building this was to teach myself about proper authentication and security combined with implementing two of the internet's most famous online payments systems.
 
  ## How to use:
 
