@@ -8,4 +8,4 @@ If you want to test the email verification portion you would need an inbox, http
 
 ## Demo:
 
-https://zoran-fake-donations.herokuapp.com/
+https://zoran-fake-subscriptions.herokuapp.com/
