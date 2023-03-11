@@ -6,6 +6,3 @@ The idea behind FakeSubscriptions is to build a MERN stack subscription based we
 
 If you want to test the email verification portion you would need an inbox, https://temp-mail.org/en/ is an excellent service for that, or if you would like to use an already pre-made account. Email is faker@hotmail.com with the password Tester97!.
 
-## Demo:
-
-https://zoran-fake-subscriptions.herokuapp.com/
